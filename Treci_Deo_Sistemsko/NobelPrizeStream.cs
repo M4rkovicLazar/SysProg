@@ -17,10 +17,9 @@ namespace SysProj
       public NobelPrizeStream(string category)
       {
          this.category = category;
-         this.Category = category; // Postavljamo javni properti
+         this.Category = category; // Postavljam javni properti
       }
 
-      // Metoda za asinhrono pribavljanje i slanje podataka
       public async Task GetPrizesAsync()
       {
          try
@@ -28,9 +27,9 @@ namespace SysProj
             var prizes = await prizeService.FetchPrizesAsync(category);
             foreach (var prize in prizes)
             {
-               prizeSubject.OnNext(prize); // Emitovanje svakog objekta
+               prizeSubject.OnNext(prize); 
             }
-            prizeSubject.OnCompleted(); // Signaliziranje kraja streama
+            prizeSubject.OnCompleted(); 
          }
          catch (Exception ex)
          {

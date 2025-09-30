@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "D:\\Projects\\Sistemsko\\Prvi_Deo_Sistemsko\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{682A8C38-0A7A-487F-817E-FB1758281989}|PrviDeo_OpenLibrary.csproj|d:\\projects\\sistemsko\\prvi_deo_sistemsko\\zadatak.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{682A8C38-0A7A-487F-817E-FB1758281989}|PrviDeo_OpenLibrary.csproj|solutionrelative:zadatak.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{682A8C38-0A7A-487F-817E-FB1758281989}|PrviDeo_OpenLibrary.csproj|d:\\projects\\sistemsko\\prvi_deo_sistemsko\\webserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{682A8C38-0A7A-487F-817E-FB1758281989}|PrviDeo_OpenLibrary.csproj|solutionrelative:webserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{682A8C38-0A7A-487F-817E-FB1758281989}|PrviDeo_OpenLibrary.csproj|d:\\projects\\sistemsko\\prvi_deo_sistemsko\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{682A8C38-0A7A-487F-817E-FB1758281989}|PrviDeo_OpenLibrary.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{682A8C38-0A7A-487F-817E-FB1758281989}|PrviDeo_OpenLibrary.csproj|d:\\projects\\sistemsko\\prvi_deo_sistemsko\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{682A8C38-0A7A-487F-817E-FB1758281989}|PrviDeo_OpenLibrary.csproj|solutionrelative:book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{682A8C38-0A7A-487F-817E-FB1758281989}|PrviDeo_OpenLibrary.csproj|d:\\projects\\sistemsko\\prvi_deo_sistemsko\\webworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{682A8C38-0A7A-487F-817E-FB1758281989}|PrviDeo_OpenLibrary.csproj|solutionrelative:webworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{682A8C38-0A7A-487F-817E-FB1758281989}|PrviDeo_OpenLibrary.csproj|d:\\projects\\sistemsko\\prvi_deo_sistemsko\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{682A8C38-0A7A-487F-817E-FB1758281989}|PrviDeo_OpenLibrary.csproj|solutionrelative:book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{682A8C38-0A7A-487F-817E-FB1758281989}|PrviDeo_OpenLibrary.csproj|d:\\projects\\sistemsko\\prvi_deo_sistemsko\\webserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{682A8C38-0A7A-487F-817E-FB1758281989}|PrviDeo_OpenLibrary.csproj|solutionrelative:webserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,33 +26,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projects\\Sistemsko\\Prvi_Deo_Sistemsko\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Projects\\Sistemsko\\Prvi_Deo_Sistemsko\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-22T16:22:20.592Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Zadatak.txt",
-              "DocumentMoniker": "D:\\Projects\\Sistemsko\\Prvi_Deo_Sistemsko\\Zadatak.txt",
-              "RelativeDocumentMoniker": "Zadatak.txt",
-              "ToolTip": "D:\\Projects\\Sistemsko\\Prvi_Deo_Sistemsko\\Zadatak.txt",
-              "RelativeToolTip": "Zadatak.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-09-30T21:33:41.873Z",
               "EditorCaption": ""
             },
             {
@@ -65,7 +48,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Book.cs",
               "DocumentMoniker": "D:\\Projects\\Sistemsko\\Prvi_Deo_Sistemsko\\Book.cs",
               "RelativeDocumentMoniker": "Book.cs",
@@ -73,12 +56,11 @@
               "RelativeToolTip": "Book.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T17:25:26.564Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T17:25:26.564Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "WebWorker.cs",
               "DocumentMoniker": "D:\\Projects\\Sistemsko\\Prvi_Deo_Sistemsko\\WebWorker.cs",
               "RelativeDocumentMoniker": "WebWorker.cs",
@@ -86,12 +68,11 @@
               "RelativeToolTip": "WebWorker.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T15:07:35.73Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T15:07:35.73Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "WebServer.cs",
               "DocumentMoniker": "D:\\Projects\\Sistemsko\\Prvi_Deo_Sistemsko\\WebServer.cs",
               "RelativeDocumentMoniker": "WebServer.cs",
@@ -99,8 +80,7 @@
               "RelativeToolTip": "WebServer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-30T15:07:20.16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-30T15:07:20.16Z"
             }
           ]
         }

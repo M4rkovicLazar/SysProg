@@ -1,71 +1,81 @@
-﻿//using SysProj;
-//using System.Reactive.Linq;
+﻿using SysProj;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Reactive.Linq;
+using System.Threading.Tasks;
 
-//public class Program
-//{
-//   public static async Task Main()
-//   {
-//      // 1. Kreiramo stream za Nobelove nagrade za željenu kategoriju (npr. 'phy' za fiziku)
-//      // API dokumentacija: medicine, physics, chemistry, literature, peace, economic sciences
-//      var categ = Console.ReadLine();
-//      var prizeStream = new NobelPrizeStream("phy");
+public class Program
+{
+   public static async Task Main()
+   {
+      Console.WriteLine("Unesite kategorije Nobelovih nagrada (npr. 'phy, med, lit, che'):");
+      string input = Console.ReadLine();
 
-//      // 2. Kreiramo observer za prikaz rezultata
-//      var generalObserver = new NobelPrizeObserver("General Observer - Nobel Prize");
+      var categories = input?.Split(new[] { ',', ' ' }, StringSplitOptions.RemoveEmptyEntries)
+                            .Select(c => c.Trim().ToLower())
+                            .ToList() ?? new List<string>();
 
-//      // 3. Povezujemo general observer direktno na stream
-//      var subscriptionGeneral = prizeStream.Subscribe(generalObserver);
+      if (categories.Count == 0)
+      {
+         Console.WriteLine("Niste uneli nijednu validnu kategoriju. Izlazak iz programa.");
+         return;
+      }
 
-//      // 4. Implementacija logike za pronalazak meseca sa najviše dodela (Koristeći Rx.NET operatore)
+      Console.WriteLine($"Pribavljaju se podaci za kategorije: {string.Join(", ", categories)}\n");
 
-//      // A. Koristimo 'Select' da izvučemo mesec iz datuma dodele (DateAwarded property)
-//      var monthStream = prizeStream.Select(prize =>
-//      {
-//         if (DateTime.TryParse(prize.DateAwarded, out DateTime date))
-//         {
-//            return date.Month; // Vraća int meseca (1-12)
-//         }
-//         return -1; // -1 za nagrade bez validnog datuma
-//      })
-//      .Where(month => month != -1); // Filtriramo nevalidne datume
+      var streams = categories.Select(category => new NobelPrizeStream(category) as IObservable<NobelPrize>).ToList();
 
-//      // B. Koristimo 'ToList()' operator da prikupimo SVE mesece pre analize (akumulacija)
-//      var monthAnalysis = monthStream
-//          .ToList() // Akumulira sve elemente u streamu u jednu List<int>
-//          .Subscribe(months =>
-//          {
-//             // Ova logika se izvršava SAMO JEDNOM, kada je ceo stream završen (OnCompleted)
+      //spajam sve kreirane tokove u 1 sa Megre()
+      var combinedStream = Observable.Merge(streams);
+      var observerName = $"Observer - {string.Join(", ", categories).ToUpper()}";
+      var generalObserver = new NobelPrizeObserver(observerName);
 
-//             if (months == null || months.Count == 0)
-//             {
-//                Console.WriteLine("\nNema dostupnih datuma za analizu meseca.");
-//                return;
-//             }
+      //sub se na combinedStream, a podaci iz svih kat ce da dolaze ovde
+      var subscriptionGeneral = combinedStream.Subscribe(generalObserver);
 
-//             // C. Logika za nalaženje najčešćeg meseca (Van Rx streama, unutar Subscribe bloka)
-//             var monthCounts = months
-//                   .GroupBy(month => month)
-//                   .Select(group => new { Month = group.Key, Count = group.Count() })
-//                   .OrderByDescending(x => x.Count)
-//                   .FirstOrDefault();
+      var monthAnalysis = combinedStream.Select(prize =>
+      {
+         if (DateTime.TryParse(prize.DateAwarded, out DateTime date))
+         {
+            return date.Month;
+         }
+         return -1;
+      })
+      .Where(month => month != -1)
+      .ToList()
+      .Subscribe(months =>
+      {
+         if (months != null && months.Count > 0)
+         {
+            var monthCounts = months
+                  .GroupBy(month => month)
+                  .Select(group => new { Month = group.Key, Count = group.Count() })
+                  .OrderByDescending(x => x.Count)
+                  .FirstOrDefault();
 
-//             if (monthCounts != null)
-//             {
-//                var monthName = new DateTime(2000, monthCounts.Month, 1).ToString("MMMM");
-//                Console.WriteLine($"\n--- ANALIZA ---");
-//                Console.WriteLine($"Mesec sa najvećim brojem dodela: {monthName} (Broj dodela: {monthCounts.Count})");
-//                Console.WriteLine($"---------------\n");
-//             }
-//          });
+            if (monthCounts != null)
+            {
+               var monthName = new DateTime(2000, monthCounts.Month, 1).ToString("MMMM");
+               Console.WriteLine($"\n--- ZBIRNA ANALIZA ({string.Join(", ", categories).ToUpper()}) ---");
+               Console.WriteLine($"Mesec sa najvećim brojem dodela: {monthName} (Broj dodela: {monthCounts.Count})");
+               Console.WriteLine($"--------------------------------------------------\n");
+            }
+         }
+         else
+            Console.WriteLine("\nNema dostupnih datuma za analizu meseca u unesenim kategorijama.");
+      });
+      //za svaku kreiranu stream instancu pokrecem GetPrizesAsync()
+      var fetchTasks = categories.Select(category =>
+          ((NobelPrizeStream)streams.First(s => ((NobelPrizeStream)s).Category == category)).GetPrizesAsync()).ToList();
 
-//      // 5. Pribavljamo podatke - ovo pokreće ceo lanac
-//      await prizeStream.GetPrizesAsync();
+      await Task.WhenAll(fetchTasks); // cekam da se svi resursi zavrse
 
-//      Console.WriteLine("Pritisnite ENTER za izlaz...");
-//      Console.ReadLine();
+      Console.WriteLine("Pritisnite ENTER za izlaz...");
+      Console.ReadLine();
 
-//      // 6. Oslobađanje resursa
-//      subscriptionGeneral.Dispose();
-//      monthAnalysis.Dispose();
-//   }
-//}
+      // Oslobadjam resurse
+      subscriptionGeneral.Dispose();
+      monthAnalysis.Dispose();
+   }
+}

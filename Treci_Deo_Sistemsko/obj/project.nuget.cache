@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/1xWOksV7yw=",
+  "dgSpecHash": "nXc4PjdE1JQ=",
   "success": true,
-  "projectFilePath": "D:\\Projects\\dotnet\\Treci_Deo_Sistemsko\\SysProj.csproj",
+  "projectFilePath": "D:\\Projects\\Sistemsko\\Treci_Deo_Sistemsko\\SysProj.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lazar\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512",
     "C:\\Users\\Lazar\\.nuget\\packages\\system.reactive\\6.0.2\\system.reactive.6.0.2.nupkg.sha512"

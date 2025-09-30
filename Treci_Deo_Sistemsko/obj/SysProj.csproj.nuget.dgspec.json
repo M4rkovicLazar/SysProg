@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\dotnet\\Treci_Deo_Sistemsko\\SysProj.csproj": {}
+    "D:\\Projects\\Sistemsko\\Treci_Deo_Sistemsko\\SysProj.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\dotnet\\Treci_Deo_Sistemsko\\SysProj.csproj": {
+    "D:\\Projects\\Sistemsko\\Treci_Deo_Sistemsko\\SysProj.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\dotnet\\Treci_Deo_Sistemsko\\SysProj.csproj",
+        "projectUniqueName": "D:\\Projects\\Sistemsko\\Treci_Deo_Sistemsko\\SysProj.csproj",
         "projectName": "SysProj",
-        "projectPath": "D:\\Projects\\dotnet\\Treci_Deo_Sistemsko\\SysProj.csproj",
+        "projectPath": "D:\\Projects\\Sistemsko\\Treci_Deo_Sistemsko\\SysProj.csproj",
         "packagesPath": "C:\\Users\\Lazar\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\dotnet\\Treci_Deo_Sistemsko\\obj\\",
+        "outputPath": "D:\\Projects\\Sistemsko\\Treci_Deo_Sistemsko\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
