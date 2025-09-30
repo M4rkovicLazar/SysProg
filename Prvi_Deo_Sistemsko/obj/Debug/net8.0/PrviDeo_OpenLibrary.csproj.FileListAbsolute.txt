@@ -1,0 +1,14 @@
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\bin\Debug\net8.0\PrviDeo_OpenLibrary.exe
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\bin\Debug\net8.0\PrviDeo_OpenLibrary.deps.json
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\bin\Debug\net8.0\PrviDeo_OpenLibrary.runtimeconfig.json
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\bin\Debug\net8.0\PrviDeo_OpenLibrary.dll
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\bin\Debug\net8.0\PrviDeo_OpenLibrary.pdb
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\obj\Debug\net8.0\PrviDeo_OpenLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\obj\Debug\net8.0\PrviDeo_OpenLibrary.AssemblyInfoInputs.cache
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\obj\Debug\net8.0\PrviDeo_OpenLibrary.AssemblyInfo.cs
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\obj\Debug\net8.0\PrviDeo_OpenLibrary.csproj.CoreCompileInputs.cache
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\obj\Debug\net8.0\PrviDeo_OpenLibrary.dll
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\obj\Debug\net8.0\refint\PrviDeo_OpenLibrary.dll
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\obj\Debug\net8.0\PrviDeo_OpenLibrary.pdb
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\obj\Debug\net8.0\PrviDeo_OpenLibrary.genruntimeconfig.cache
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\obj\Debug\net8.0\ref\PrviDeo_OpenLibrary.dll

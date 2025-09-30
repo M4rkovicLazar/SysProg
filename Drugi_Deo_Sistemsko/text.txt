@@ -1,0 +1,7 @@
+Kreirati Web server koji klijentu omogu?ava pretragu knjiga koriš?enjem Open Library API-a. Pretraga se
+može vršiti pomo?u filtera koji se zadaju u okviru query-a. Spisak knjiga koje zadovoljavaju uslov se
+vra?aju kao odgovor klijentu. Svi zahtevi serveru se šalju preko browsera koriš?enjem GET metode.
+Ukoliko navedene knjige ne postoje, prikazati grešku korisniku.
+Na?in funkcionisanja Open Library API-a je mogu?e prou?iti na slede?em linku:
+https://openlibrary.org/dev/docs/api/search
+Primer poziva serveru: https://openlibrary.org/search.json?author=tolkien&sort=new

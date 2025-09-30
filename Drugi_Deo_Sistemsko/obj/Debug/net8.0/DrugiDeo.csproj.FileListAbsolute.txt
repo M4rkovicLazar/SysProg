@@ -1,0 +1,14 @@
+D:\Projects\dotnet\Drugi_Deo_Sistemsko\bin\Debug\net8.0\DrugiDeo.exe
+D:\Projects\dotnet\Drugi_Deo_Sistemsko\bin\Debug\net8.0\DrugiDeo.deps.json
+D:\Projects\dotnet\Drugi_Deo_Sistemsko\bin\Debug\net8.0\DrugiDeo.runtimeconfig.json
+D:\Projects\dotnet\Drugi_Deo_Sistemsko\bin\Debug\net8.0\DrugiDeo.dll
+D:\Projects\dotnet\Drugi_Deo_Sistemsko\bin\Debug\net8.0\DrugiDeo.pdb
+D:\Projects\dotnet\Drugi_Deo_Sistemsko\obj\Debug\net8.0\DrugiDeo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\dotnet\Drugi_Deo_Sistemsko\obj\Debug\net8.0\DrugiDeo.AssemblyInfoInputs.cache
+D:\Projects\dotnet\Drugi_Deo_Sistemsko\obj\Debug\net8.0\DrugiDeo.AssemblyInfo.cs
+D:\Projects\dotnet\Drugi_Deo_Sistemsko\obj\Debug\net8.0\DrugiDeo.csproj.CoreCompileInputs.cache
+D:\Projects\dotnet\Drugi_Deo_Sistemsko\obj\Debug\net8.0\DrugiDeo.dll
+D:\Projects\dotnet\Drugi_Deo_Sistemsko\obj\Debug\net8.0\refint\DrugiDeo.dll
+D:\Projects\dotnet\Drugi_Deo_Sistemsko\obj\Debug\net8.0\DrugiDeo.pdb
+D:\Projects\dotnet\Drugi_Deo_Sistemsko\obj\Debug\net8.0\DrugiDeo.genruntimeconfig.cache
+D:\Projects\dotnet\Drugi_Deo_Sistemsko\obj\Debug\net8.0\ref\DrugiDeo.dll

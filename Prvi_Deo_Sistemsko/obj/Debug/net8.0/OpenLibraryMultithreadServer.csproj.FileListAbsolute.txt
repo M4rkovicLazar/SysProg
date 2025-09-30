@@ -1,0 +1,14 @@
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\bin\Debug\net8.0\OpenLibraryMultithreadServer.exe
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\bin\Debug\net8.0\OpenLibraryMultithreadServer.deps.json
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\bin\Debug\net8.0\OpenLibraryMultithreadServer.runtimeconfig.json
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\bin\Debug\net8.0\OpenLibraryMultithreadServer.dll
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\bin\Debug\net8.0\OpenLibraryMultithreadServer.pdb
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\obj\Debug\net8.0\OpenLibraryMultithreadServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\obj\Debug\net8.0\OpenLibraryMultithreadServer.AssemblyInfoInputs.cache
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\obj\Debug\net8.0\OpenLibraryMultithreadServer.AssemblyInfo.cs
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\obj\Debug\net8.0\OpenLibraryMultithreadServer.csproj.CoreCompileInputs.cache
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\obj\Debug\net8.0\OpenLibraryMultithreadServer.dll
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\obj\Debug\net8.0\refint\OpenLibraryMultithreadServer.dll
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\obj\Debug\net8.0\OpenLibraryMultithreadServer.pdb
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\obj\Debug\net8.0\OpenLibraryMultithreadServer.genruntimeconfig.cache
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\obj\Debug\net8.0\ref\OpenLibraryMultithreadServer.dll

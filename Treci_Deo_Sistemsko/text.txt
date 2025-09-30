@@ -1,0 +1,6 @@
+﻿Koristeći principe Reaktivnog programiranja i Nobelprize API, implementirati aplikaciju za prikaz
+imena laureata Nobelove nagrade, godine osvajanja nagrade, kao i motivacije. Koristiti
+https://api.nobelprize.org/2.1/nobelPrizes endpoint. Prilikom poziva proslediti odgovarajuću
+kategoriju za koju će podaci biti pribavljeni. Za prikupljene podatke odrediti mesec u kojem je bio
+najveći broj dodela nagrade (dataAwarded property). Prikazati dobijene rezultate.
+Dokumentacija dostupna na linku: https://www.nobelprize.org/organization/developer-zone-2/

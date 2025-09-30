@@ -1,0 +1,14 @@
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\bin\Debug\net8.0\PrviDeo.exe
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\bin\Debug\net8.0\PrviDeo.deps.json
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\bin\Debug\net8.0\PrviDeo.runtimeconfig.json
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\bin\Debug\net8.0\PrviDeo.dll
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\bin\Debug\net8.0\PrviDeo.pdb
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\obj\Debug\net8.0\PrviDeo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\obj\Debug\net8.0\PrviDeo.AssemblyInfoInputs.cache
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\obj\Debug\net8.0\PrviDeo.AssemblyInfo.cs
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\obj\Debug\net8.0\PrviDeo.csproj.CoreCompileInputs.cache
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\obj\Debug\net8.0\PrviDeo.dll
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\obj\Debug\net8.0\refint\PrviDeo.dll
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\obj\Debug\net8.0\PrviDeo.pdb
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\obj\Debug\net8.0\PrviDeo.genruntimeconfig.cache
+D:\Projects\dotnet\Prvi_Deo_Sistemsko\obj\Debug\net8.0\ref\PrviDeo.dll

@@ -1,0 +1,6 @@
+📥 [2025-09-28 17:20:08] Zahtev od 127.0.0.1:50038 | category=physics
+✅ Uspešno obrađen (646 ms)
+
+📥 [2025-09-28 17:21:21] Zahtev od 127.0.0.1:50038 | category=chemistry
+✅ Uspešno obrađen (491 ms)
+

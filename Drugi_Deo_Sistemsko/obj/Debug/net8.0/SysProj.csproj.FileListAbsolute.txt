@@ -1,0 +1,14 @@
+D:\Projects\dotnet\SysProj\bin\Debug\net8.0\SysProj.exe
+D:\Projects\dotnet\SysProj\bin\Debug\net8.0\SysProj.deps.json
+D:\Projects\dotnet\SysProj\bin\Debug\net8.0\SysProj.runtimeconfig.json
+D:\Projects\dotnet\SysProj\bin\Debug\net8.0\SysProj.dll
+D:\Projects\dotnet\SysProj\bin\Debug\net8.0\SysProj.pdb
+D:\Projects\dotnet\SysProj\obj\Debug\net8.0\SysProj.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\dotnet\SysProj\obj\Debug\net8.0\SysProj.AssemblyInfoInputs.cache
+D:\Projects\dotnet\SysProj\obj\Debug\net8.0\SysProj.AssemblyInfo.cs
+D:\Projects\dotnet\SysProj\obj\Debug\net8.0\SysProj.csproj.CoreCompileInputs.cache
+D:\Projects\dotnet\SysProj\obj\Debug\net8.0\SysProj.dll
+D:\Projects\dotnet\SysProj\obj\Debug\net8.0\refint\SysProj.dll
+D:\Projects\dotnet\SysProj\obj\Debug\net8.0\SysProj.pdb
+D:\Projects\dotnet\SysProj\obj\Debug\net8.0\SysProj.genruntimeconfig.cache
+D:\Projects\dotnet\SysProj\obj\Debug\net8.0\ref\SysProj.dll

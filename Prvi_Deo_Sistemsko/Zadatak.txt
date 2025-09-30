@@ -1,0 +1,49 @@
+Kreirati Web server koji klijentu omogu?ava pretragu knjiga koriš?enjem Open Library API-a. Pretraga se
+može vršiti pomo?u filtera koji se zadaju u okviru query-a. Spisak knjiga koje zadovoljavaju uslov se
+vra?aju kao odgovor klijentu. Svi zahtevi serveru se šalju preko browsera koriš?enjem GET metode.
+Ukoliko navedene knjige ne postoje, prikazati grešku korisniku.
+Na?in funkcionisanja Open Library API-a je mogu?e prou?iti na slede?em linku:
+https://openlibrary.org/dev/docs/api/search
+Primer poziva serveru: https://openlibrary.org/search.json?author=tolkien&sort=new
+
+Implementirati kao konzolnu aplikaciju.
+Aplikacija po?inje sa static void Main(string[] args) u Program.cs i koristi Console.WriteLine za logovanje.
+
+Loguje sve primljene zahteve i informacije o njihovoj obradi (greška, uspeh, klju?ni detalji).
+Metoda WebServer.Log() se koristi širom aplikacije, beleže?i: - Pokretanje servera. - Primljeni zahtev (Log($"Zahtev: {requestLine}")).
+- Cache HIT status. - Greške tokom Fetch-a ili obrade (Log($"Greška u obradi JSON-a: {ex.Message}")).
+
+Server klijentu omogu?ava pretragu knjiga koriš?enjem Open Library API-a.
+WebWorker.FetchOpenLibraryData konstruiše URL ka Open Library (https://openlibrary.org/{queryPart}) i sinhrono preuzima podatke.
+
+Pretraga se vrši pomo?u filtera zadatih u query-u.
+Server o?ekuje putanju requestPath koja mora po?eti sa /search.json?.
+Cela putanja se prosle?uje Open Library API-u.	
+
+Svi zahtevi serveru se šalju preko GET metode.
+Kôd u WebWorker.ProcessRequest eksplicitno proverava `if (tokens.Length < 2	
+
+Spisak knjiga se filtrira i vra?a kao JSON odgovor.
+WebWorker.FilterAndSerialize koristi JsonDocument.Parse da izdvoji samo Title i 
+Author iz polja docs i serijalizuje ih u novi JSON objekat za klijenta.	
+
+Ukoliko navedene knjige ne postoje, prikazati grešku.
+WebWorker.FilterAndSerialize proverava numFound == 0 i u tom slu?aju šalje 404 Not Found sa adekvatnom JSON porukom o grešci.
+
+Koristiti funkcije iz biblioteke System.Threading.
+Koriš?eni su: System.Threading.ThreadPool, System.Threading.SemaphoreSlim, i System.Threading.Monitor (implicitno preko lock).	
+
+Koristiti mehanizme za sinhronizaciju i zaklju?avanje.
+Koriš?eni su: SemaphoreSlim za kontrolu protoka niti i lock (logLock) za zaštitu deljenog resursa (konzole/logovanja).	
+
+Dozvoljeno je koriš?enje ThreadPool-a.
+Kôd se oslanja na ThreadPool.QueueUserWorkItem(HandleClient, client) za obradu svakog klijenta.	
+
+Web server treba da kešira u memoriji odgovore na primljene zahteve.
+private static readonly ConcurrentDictionary<string, string> Cache je definisan u WebServer.cs.	ISPUNJENO
+
+U slu?aju da stigne isti zahtev, prosle?uje se ve? pripremljeni odgovor.
+U WebWorker.ProcessRequest se prvo proverava keš pomo?u Cache.TryGetValue(requestPath, out var cachedResponse) pre bilo kakvog poziva 
+eksternog API-ja. Nakon uspešne obrade, finalni odgovor se kešira pomo?u Cache.AddOrUpdate.	
+
+Napomena: ConcurrentDictionary je iz System.Collections.Concurrent i pruža thread-safe keširanje, što je klju?no za multithreaded okruženje.
