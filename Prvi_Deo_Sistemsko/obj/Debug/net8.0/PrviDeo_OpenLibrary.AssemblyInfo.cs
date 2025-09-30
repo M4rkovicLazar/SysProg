@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PrviDeo_OpenLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b3e101083e3ac6be993bfdbf8dc44b320bd531f")]
 [assembly: System.Reflection.AssemblyProductAttribute("PrviDeo_OpenLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PrviDeo_OpenLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
