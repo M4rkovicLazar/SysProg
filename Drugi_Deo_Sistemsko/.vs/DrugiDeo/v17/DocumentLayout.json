@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projects\\dotnet\\Drugi_Deo_Sistemsko\\",
+  "WorkspaceRootPath": "D:\\Projects\\Sistemsko\\Drugi_Deo_Sistemsko\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{682A8C38-0A7A-487F-817E-FB1758281989}|DrugiDeo.csproj|d:\\projects\\dotnet\\drugi_deo_sistemsko\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{682A8C38-0A7A-487F-817E-FB1758281989}|DrugiDeo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{682A8C38-0A7A-487F-817E-FB1758281989}|DrugiDeo.csproj|d:\\projects\\sistemsko\\drugi_deo_sistemsko\\text.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{682A8C38-0A7A-487F-817E-FB1758281989}|DrugiDeo.csproj|solutionrelative:text.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{682A8C38-0A7A-487F-817E-FB1758281989}|DrugiDeo.csproj|d:\\projects\\dotnet\\drugi_deo_sistemsko\\text.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{682A8C38-0A7A-487F-817E-FB1758281989}|DrugiDeo.csproj|solutionrelative:text.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{682A8C38-0A7A-487F-817E-FB1758281989}|DrugiDeo.csproj|d:\\projects\\sistemsko\\drugi_deo_sistemsko\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{682A8C38-0A7A-487F-817E-FB1758281989}|DrugiDeo.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,17 +18,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Projects\\dotnet\\Drugi_Deo_Sistemsko\\Program.cs",
+              "DocumentMoniker": "D:\\Projects\\Sistemsko\\Drugi_Deo_Sistemsko\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Projects\\dotnet\\Drugi_Deo_Sistemsko\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAowHMAAAATAAAAAAAAAA==",
+              "ToolTip": "D:\\Projects\\Sistemsko\\Drugi_Deo_Sistemsko\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwHQAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-22T16:22:20.592Z",
               "IsPinned": true,
@@ -40,15 +40,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "text.txt",
-              "DocumentMoniker": "D:\\Projects\\dotnet\\Drugi_Deo_Sistemsko\\text.txt",
+              "DocumentMoniker": "D:\\Projects\\Sistemsko\\Drugi_Deo_Sistemsko\\text.txt",
               "RelativeDocumentMoniker": "text.txt",
-              "ToolTip": "D:\\Projects\\dotnet\\Drugi_Deo_Sistemsko\\text.txt",
+              "ToolTip": "D:\\Projects\\Sistemsko\\Drugi_Deo_Sistemsko\\text.txt",
               "RelativeToolTip": "text.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-09-24T14:34:12.286Z"
+              "WhenOpened": "2025-09-24T14:34:12.286Z",
+              "EditorCaption": ""
             }
           ]
         }

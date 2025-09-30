@@ -26,9 +26,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Projects\\dotnet\\Drugi_Deo_Sistemsko\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Projects\\dotnet\\Drugi_Deo_Sistemsko\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAowJEAAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\Projects\\dotnet\\Drugi_Deo_Sistemsko\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAowHMAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-22T16:22:20.592Z",
               "IsPinned": true,
@@ -48,8 +48,7 @@
               "RelativeToolTip": "text.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-09-24T14:34:12.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-24T14:34:12.286Z"
             }
           ]
         }

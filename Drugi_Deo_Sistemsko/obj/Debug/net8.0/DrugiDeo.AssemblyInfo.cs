@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DrugiDeo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4f428b3e08a5b1e811de0bafe8ece8241686ee0")]
 [assembly: System.Reflection.AssemblyProductAttribute("DrugiDeo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DrugiDeo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
